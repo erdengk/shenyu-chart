@@ -18,6 +18,6 @@ install:
 
 > helm install my-shenyu shenyu/shenyu --version 2.4.2
 
-
+2.4.21
 
 have fun～
