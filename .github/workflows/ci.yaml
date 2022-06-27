@@ -57,6 +57,6 @@ jobs:
               --workdir /workdir/charts/shenyu \
               quay.io/helmpack/chart-testing:v3.4.0 sh -c 'helm dependency update \
                && cd ../.. \
-               && helm repo add https://erdengk.github.io/shenyu-chart \
+               && helm repo add shenyu https://erdengk.github.io/shenyu-chart \
                && ct install \
                   --charts charts/shenyu '
